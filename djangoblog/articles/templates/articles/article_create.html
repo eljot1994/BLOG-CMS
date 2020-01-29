@@ -6,7 +6,7 @@
       <form class="site-form" action="{% url 'articles:create' %}" method="post" enctype="multipart/form-data">
         {% csrf_token %}
         {{ form }}
-        <input type="submit" value="Stwórz">
+        <input type="submit" value="Dodaj">
       </form>
   </div>
   <script src="/static/slugify.js" charset="utf-8"></script>
